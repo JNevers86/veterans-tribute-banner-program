@@ -405,6 +405,17 @@
   margin: 0 0 14px;
 }
 
+.sectionIntro h2::after,
+.trustCopy h2::after {
+  background: var(--vt-red);
+  border-radius: 999px;
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 14px;
+  width: 68px;
+}
+
 .sectionIntro p,
 .formIntro p,
 .trustCopy p {
@@ -412,6 +423,16 @@
   font-size: 1.04rem;
   line-height: 1.7;
   margin: 0;
+}
+
+.formNote {
+  background: #fff2f3;
+  border-left: 4px solid var(--vt-red);
+  border-radius: 8px;
+  color: var(--vt-ink) !important;
+  font-weight: 800;
+  margin-top: 16px !important;
+  padding: 12px 14px;
 }
 
 .scopeNote {
@@ -448,6 +469,7 @@
 }
 
 .checkPanel {
+  border-top: 4px solid var(--vt-red);
   padding: 24px;
 }
 
@@ -487,6 +509,7 @@
 }
 
 .stepCard {
+  border-top: 4px solid var(--vt-red);
   padding: 18px;
 }
 
@@ -864,6 +887,7 @@
 }
 
 .faqItem {
+  border-top: 4px solid var(--vt-red);
   padding: 20px;
 }
 
@@ -871,6 +895,14 @@
   color: var(--vt-navy);
   font-size: 1.05rem;
   margin: 0 0 9px;
+}
+
+.faqItem h3::before {
+  color: var(--vt-red);
+  content: "Q";
+  display: inline-block;
+  font-weight: 900;
+  margin-right: 8px;
 }
 
 .faqItem p {

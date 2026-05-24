@@ -819,6 +819,11 @@ function ExistingProgramSubmissionForm({
           Individuals and families can submit banner details through a program code or
           program-specific link once a local organization has started the program.
         </p>
+        <p className={styles.formNote}>
+          Recommended workflow: the post, town, or committee shares this section with sponsors and
+          families. If the organization collects paper forms, they can also enter each banner here
+          one at a time.
+        </p>
       </div>
       <form className={styles.formCard} onSubmit={onSubmit}>
         <label className={`${styles.field} ${styles.fullWidthField}`}>
