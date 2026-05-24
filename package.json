@@ -1,0 +1,24 @@
+{
+  "name": "veterans-tribute-banner-program",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1 --port 3010",
+    "build": "next build --webpack",
+    "start": "next start --hostname 0.0.0.0 --port ${PORT:-10000}",
+    "start:local": "next start --hostname 127.0.0.1 --port 3010",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "1.14.0",
+    "next": "16.2.5",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}
