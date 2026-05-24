@@ -250,8 +250,8 @@
   border-radius: 8px;
   box-shadow: var(--vt-shadow);
   display: grid;
-  align-content: start;
-  grid-template-rows: auto auto auto auto auto;
+  align-content: stretch;
+  grid-template-rows: auto minmax(300px, 1fr) auto auto auto;
   justify-self: end;
   max-height: 610px;
   max-width: 315px;
@@ -310,12 +310,12 @@
   border-radius: 8px;
   color: var(--vt-navy);
   display: grid;
-  gap: 9px;
+  gap: 12px;
   justify-items: center;
-  margin-bottom: 18px;
-  min-height: 220px;
+  margin-bottom: 20px;
+  min-height: 300px;
   overflow: hidden;
-  padding: 18px 18px;
+  padding: 24px 18px;
   position: relative;
   z-index: 1;
 }
@@ -333,10 +333,10 @@
   border: 3px solid var(--vt-white);
   border-radius: 999px;
   display: flex;
-  height: 102px;
+  height: 122px;
   justify-content: center;
   position: relative;
-  width: 102px;
+  width: 122px;
   z-index: 1;
 }
 
