@@ -917,6 +917,63 @@
   color: var(--vt-white);
 }
 
+.contactSection {
+  background: var(--vt-red);
+  color: var(--vt-white);
+}
+
+.contactInner {
+  align-items: center;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 48px 22px;
+}
+
+.contactInner h2 {
+  color: var(--vt-white);
+  font-size: 2.1rem;
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
+
+.contactInner p {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.03rem;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 700px;
+}
+
+.contactSection .kicker {
+  color: var(--vt-gold-soft);
+}
+
+.contactCard {
+  background: var(--vt-white);
+  border-radius: 8px;
+  color: var(--vt-navy);
+  display: grid;
+  gap: 8px;
+  padding: 22px;
+}
+
+.contactCard strong {
+  font-size: 1.2rem;
+}
+
+.contactCard a {
+  color: var(--vt-red);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.contactCard a:hover {
+  text-decoration: underline;
+}
+
 .finalCtaInner {
   align-items: center;
   display: flex;
@@ -935,7 +992,8 @@
   .heroGrid,
   .formSection,
   .adminLayout,
-  .trustGrid {
+  .trustGrid,
+  .contactInner {
     grid-template-columns: 1fr;
   }
 

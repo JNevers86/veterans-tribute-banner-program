@@ -419,6 +419,7 @@ export default function VeteransBannerProgramPage() {
       <IncludedNotIncluded />
       <TrustSection />
       <FAQ />
+      <ContactSection />
       <FinalCTA />
     </main>
   );
@@ -1134,6 +1135,28 @@ function FAQ() {
             <p>{item.answer}</p>
           </article>
         ))}
+      </div>
+    </section>
+  );
+}
+
+function ContactSection() {
+  return (
+    <section className={styles.contactSection} id="contact">
+      <div className={styles.contactInner}>
+        <div>
+          <p className={styles.kicker}>Contact</p>
+          <h2>Talk through a local banner program.</h2>
+          <p>
+            For questions, sample timelines, or help planning a post/town program, contact Jonathan
+            Nevers.
+          </p>
+        </div>
+        <div className={styles.contactCard}>
+          <strong>Jonathan Nevers</strong>
+          <a href="tel:12079397557">207-939-7557</a>
+          <a href="mailto:jnevers@printmailofmaine.com">jnevers@printmailofmaine.com</a>
+        </div>
       </div>
     </section>
   );
