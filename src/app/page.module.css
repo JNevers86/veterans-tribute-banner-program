@@ -250,14 +250,14 @@
   border-radius: 8px;
   box-shadow: var(--vt-shadow);
   display: grid;
-  align-content: center;
+  align-content: start;
   grid-template-rows: auto auto auto auto auto;
   justify-self: end;
   max-height: 610px;
   max-width: 315px;
   min-height: 540px;
   overflow: hidden;
-  padding: 16px;
+  padding: 10px 16px 16px;
   position: relative;
   width: min(100%, 315px);
 }
@@ -286,7 +286,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .bannerTop span {
@@ -294,12 +294,13 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   color: var(--vt-white);
-  font-size: 1.18rem;
+  font-size: 1.54rem;
   font-weight: 900;
   line-height: 1;
-  padding: 10px 13px;
+  padding: 11px 10px;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .bannerPhoto {
@@ -309,12 +310,12 @@
   border-radius: 8px;
   color: var(--vt-navy);
   display: grid;
-  gap: 12px;
+  gap: 9px;
   justify-items: center;
   margin-bottom: 18px;
-  min-height: 240px;
+  min-height: 220px;
   overflow: hidden;
-  padding: 26px 18px;
+  padding: 18px 18px;
   position: relative;
   z-index: 1;
 }
