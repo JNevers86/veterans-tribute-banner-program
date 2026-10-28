@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  assetPrefix: '/veterans-tribute',
-  async rewrites() { return [{ source: '/veterans-tribute/:path*', destination: '/:path*' }]; },
+  basePath: '/veterans-tribute',
+  trailingSlash: true,
 };
 
 export default nextConfig;
