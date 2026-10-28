@@ -1105,8 +1105,8 @@ function TrustSection() {
           </div>
         </div>
         <div className={styles.logoPanel} aria-label="Parent company links">
-          <img src="/printmail-logo-color.png" alt="Printmail of Maine" />
-          <img src="/atlantic-coastal-print-signs-logo.webp" alt="Atlantic Coastal Printing" />
+          <img src="/veterans-tribute/printmail-logo-color.png" alt="Printmail of Maine" />
+          <img src="/veterans-tribute/atlantic-coastal-print-signs-logo.webp" alt="Atlantic Coastal Printing" />
         </div>
       </div>
       <div className={styles.trustBulletGrid}>
